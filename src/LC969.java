@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class PancakeSorting {
+public class LC969 {
     public List<Integer> pancakeSort(int[] A) {
         List<Integer> res = new ArrayList<>();
         int loc = findMax(A, A.length), l = A.length;
