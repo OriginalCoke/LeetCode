@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class PowfulInteger {
+public class LC970 {
     public List<Integer> powerfulIntegers(int x, int y, int bound) {
         List<Integer> res = new ArrayList<>();
         int m = 0, n = 0;
