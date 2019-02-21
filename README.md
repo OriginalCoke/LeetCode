@@ -1,4 +1,4 @@
 # LeetCode
-My AC LeetCode submissions with explanation in English and Chinese.
-With comments and intuition inside.
-Fight on Trojans!
+#My AC LeetCode submissions.
+#With comments and intuition inside.
+#Fight on Trojans!
