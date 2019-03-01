@@ -1,5 +1,6 @@
 public class LC104 {
     //Maximum Depth of Binary Tree
+    //Amazon
     public int maxDepth(TreeNode root) {
         return helper(root);
     }
