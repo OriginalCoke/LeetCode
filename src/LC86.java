@@ -17,7 +17,7 @@ public class LC86 {
             }
             head = head.next;
         }
-        curr2.next = null;
+        curr2.next = null; //避免成环
         curr1.next = dummy2.next;
         return dummy1.next;
     }
