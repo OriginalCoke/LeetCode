@@ -3,7 +3,7 @@ import java.util.List;
 
 public class LC530 {
     //Minimum Absolute Difference in BST
-    //inorder traversal
+    //inorder traversal, 可以直接循环内比较省去 list 的空间复杂度
     public int getMinimumDifference(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         int min = Integer.MAX_VALUE;
