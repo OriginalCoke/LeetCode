@@ -1,6 +1,7 @@
 public class LC1271 {
     //Hexspeak
     //不强转类型的做法?
+    //16 进制求法
     public String toHexspeak(String num) {
         int reminder;
         String s = "ABCDEF";
