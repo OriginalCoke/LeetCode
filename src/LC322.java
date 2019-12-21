@@ -10,7 +10,7 @@ public class LC322 {
             int min = -1;
             for (int coin : coins) {
                 if (curr >= coin && dp[curr - coin] >= 0) {
-                    //如果存在硬币面值差, 则只需要一枚差值的硬币 coin 补上, 剩余的蔚 curr-coin 的枚数
+                    //如果存在硬币面值差, 则只需要一枚差值的硬币 coin 补上, 剩余的为 curr-coin 的枚数
                     int temp = dp[curr - coin] + 1;
                     //记录到 curr 的最小所需硬币数量
                     if (min < 0 || temp < min) min = temp;
