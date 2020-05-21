@@ -10,8 +10,7 @@ public class LC1431 {
         }
         List<Boolean> res = new ArrayList<>();
         for (int candy : candies) {
-            if (candy + extraCandies >= maxCandy) res.add(true);
-            else res.add(false);
+            res.add(candy + extraCandies >= maxCandy);
         }
         return res;
     }
