@@ -5,8 +5,8 @@ public class LC1417 {
     //1417. Reformat The String
     public String reformat(String s) {
         StringBuilder sb = new StringBuilder();
-        List<Character> digits = new ArrayList<>();
         List<Character> letters = new ArrayList<>();
+        List<Character> digits = new ArrayList<>();
         for (char c : s.toCharArray()) {
             if (c >= '0' && c <= '9') digits.add(c);
             else letters.add(c);
